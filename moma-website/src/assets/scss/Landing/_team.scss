@@ -1,0 +1,44 @@
+.team {
+  background-color: $moma-white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: $moma-black;
+  margin-top: 150px;
+  margin-bottom: 120px;
+
+  .team-sub-title {
+    text-align: left;
+    margin: 10px 0 15px 10px;
+  }
+
+  .team-title {
+    margin-bottom: 50px;
+  }
+
+  .team-container {
+    width: 750px;
+  }
+  .team-card {
+    display: flex;
+    flex-direction: column;
+    // align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    .headshot {
+      img {
+        width: 140px;
+        height: 140px;
+      }
+      margin: 10px 0 15px 0;
+    }
+
+    .org, .role {
+      font-size: 14px;
+    }
+  }
+
+
+}

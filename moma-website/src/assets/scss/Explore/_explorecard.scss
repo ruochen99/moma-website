@@ -1,0 +1,48 @@
+.explore-card {
+  background-color: #F5F6F6;
+  height: 520px;
+  width: 1200px;
+  margin: 20px 0 40px 50px;
+
+  .explore-card-title {
+    text-align: center;
+    margin-top: 20px;
+    // margin-bottom: 10px;
+  }
+
+  .explore-card-youtube {
+    margin-left: 20px;
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+  }
+
+  .css-kdijfp-Wrapper {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .explore-card-subtitle {
+    text-align: center;
+    margin: 30px 0 15px 0;
+    font-weight: 600;
+  }
+
+  .explore-card-img {
+    width: 400px;
+    height: auto;
+  }
+
+  .explore-card-box-active {
+    border-style: solid;
+  }
+
+  .explore-card-text {
+    text-align: center;
+    &:hover {
+      cursor: pointer;
+      // background-color: #EEDCD0;
+      text-shadow: 2px 2px 4px #DDBFAA;
+    }
+  }
+}

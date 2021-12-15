@@ -1,0 +1,22 @@
+.about {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  color: $moma-black;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Rubik', sans-serif;
+
+  .about-title {
+    border-left: 4px solid $moma-light-green;
+    margin-bottom: 30px;
+  }
+  .about-moma-img {
+    height: 300px;
+    width: auto;
+    padding-left: 80px;
+
+  }
+
+
+}

@@ -1,0 +1,24 @@
+.publication {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  color: $moma-black;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Rubik', sans-serif;
+
+  .publication-title {
+    border-left: 4px solid $moma-light-green;
+    margin-bottom: 30px;
+  }
+
+  .publication-moma-img {
+    width: 200px;
+  }
+
+  .publication-moma-title {
+    font-weight: 600;
+  }
+
+
+}

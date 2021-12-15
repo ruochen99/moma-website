@@ -1,0 +1,29 @@
+
+
+@mixin moma-variant($color, $background, $border, $hover) {
+  color: $color;
+  background-color: $background;
+  border-color: $border;
+  transition: background-color 0.2s;
+
+  &:hover {
+    color: $color;
+    background-color: $hover;
+    cursor: pointer;
+  }
+}
+
+.btn-moma-primary {
+  @include moma-variant($moma-black, $moma-light-green, $moma-light-green, $moma-dark-green);
+}
+
+.btn-moma-inverted {
+  @include moma-variant($moma-black, $moma-white, $moma-light-green, $moma-light-grey);
+}
+
+.btn-moma-lg {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 5px 10px 0px 0px;
+  // border-radius: 0.3rem;
+}

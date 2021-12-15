@@ -1,0 +1,15 @@
+.download {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  color: $moma-black;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Rubik', sans-serif;
+
+  .download-title {
+    border-left: 4px solid $moma-light-green;
+    margin-bottom: 30px;
+  }
+
+}

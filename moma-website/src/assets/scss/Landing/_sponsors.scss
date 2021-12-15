@@ -1,0 +1,25 @@
+.sponsors {
+  background-color: $moma-white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $moma-black;
+  margin-top: 15px;
+  margin-bottom: 200px;
+  text-align: center;
+
+  .sponsors-title {
+    margin-bottom: 60px;
+  }
+
+  .sponsors-container {
+    width: 750px;
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+
+}

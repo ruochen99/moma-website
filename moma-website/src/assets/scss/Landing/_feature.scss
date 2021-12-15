@@ -1,0 +1,26 @@
+.feature {
+  background-color: $moma-white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $moma-black;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  text-align: center;
+
+  .feature-title {
+    margin-bottom: 25px;
+  }
+
+  .feature-container {
+    width: 750px;
+  }
+
+  .feature-number {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+}

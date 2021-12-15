@@ -1,0 +1,20 @@
+@import "~bootstrap/scss/bootstrap";
+
+@import "responsive";
+@import "Theming/colors";
+@import "Theming/navbar";
+@import "Theming/buttons";
+
+@import "Landing/landing";
+@import "Landing/title";
+@import "Landing/team";
+@import "Landing/sponsors";
+@import "Landing/feature";
+
+@import "About/about";
+@import "Download/download";
+@import "Publication/publication";
+@import "Explore/explore";
+@import "Explore/timeline";
+@import "Explore/filter";
+@import "Explore/explorecard";
