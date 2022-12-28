@@ -7,6 +7,12 @@
   justify-content: center;
   font-family: 'Rubik', sans-serif;
 
+  @include mobile {
+    width: auto;
+    margin: 15px 15px 0 20px;
+    font-size: 14px;
+  }
+
   .publication-title {
     border-left: 4px solid $moma-light-green;
     margin-bottom: 30px;
@@ -18,6 +24,15 @@
 
   .publication-moma-title {
     font-weight: 600;
+    @include mobile {
+      margin-top: 20px;
+    }
+  }
+
+  .publication-button {
+    @include mobile {
+      font-size: 14px;
+    }
   }
 
 

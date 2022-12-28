@@ -7,9 +7,21 @@
   justify-content: center;
   font-family: 'Rubik', sans-serif;
 
+  @include mobile {
+    width: auto;
+    margin: 15px 15px 0 20px;
+    font-size: 14px;
+  }
+
   .download-title {
     border-left: 4px solid $moma-light-green;
     margin-bottom: 30px;
+  }
+
+  .download-button {
+    @include mobile {
+      font-size: 14px;
+    }
   }
 
 }

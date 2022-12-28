@@ -9,25 +9,27 @@ class Navigation extends Component {
     super(props);
     this.state = {
       open: false,
+      background: "blue",
     };
   }
 
   toggle = () => {
     if (window.innerWidth < 992) {
-      this.setState(prevState => ({ open: !prevState.open }));
+      this.setState(prevState => ({
+        open: !prevState.open,
+        background: prevState.background === "blue" ? "white" : "blue",
+      }));
     }
   }
 
   render() {
     const links = Navigation.links;
-    const { open } = this.state;
-
+    const { open, background } = this.state;
     return (
       <Navbar
         fixed="top"
         expand="lg"
-        bg="#3AAFA9"
-        className="navbar"
+        className={"navbar-" + background}
         expanded={open}
       >
           <NavBanner as={Link} to="/">MOMA</NavBanner>

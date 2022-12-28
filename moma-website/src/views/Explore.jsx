@@ -17,7 +17,7 @@ class Explore extends Component {
   constructor(props) {
       super(props);
       this.state = {
-        hide: false,
+        hide: true,
         activityClass: "tennis",
         data: [],
         filters: {}, //available options

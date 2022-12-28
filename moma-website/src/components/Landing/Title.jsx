@@ -30,10 +30,10 @@ function Title() {
               <Col> <p className="sub-heading"> The first benchmark and dataset dedicated to activity parsing </p> </Col>
             </Row>
             <Row>
-              <Col> <Button text="About" logo={AboutLogo} to="/about" /> </Col>
-              <Col> <Button text="Download" logo={DownloadLogo} to="/download" /> </Col>
-              <Col> <Button text="Publication" logo={PublicationLogo} to="/publication" /> </Col>
-              <Col> <Button text="Explore" logo={ExploreLogo} to="/explore" /> </Col>
+              <Col xs={6} md={3}> <Button text="About" logo={AboutLogo} to="/about" /> </Col>
+              <Col xs={6} md={3}> <Button text="Download" logo={DownloadLogo} to="/download" /> </Col>
+              <Col xs={6} md={3}> <Button text="Publication" logo={PublicationLogo} to="/publication" /> </Col>
+              <Col xs={6} md={3}> <Button text="Explore" logo={ExploreLogo} to="/explore" /> </Col>
             </Row>
 
           </Container>

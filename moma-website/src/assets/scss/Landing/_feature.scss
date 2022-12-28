@@ -10,16 +10,38 @@
   text-align: center;
 
   .feature-title {
+    margin-top: 20px;
     margin-bottom: 25px;
+  }
+
+  .feature-about-text {
+    margin-bottom: 40px;
+  }
+
+  .feature-moma-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: auto;
+    margin-bottom: 100px;
+
+    @include mobile {
+      height: 170px;
+    }
   }
 
   .feature-container {
     width: 750px;
+
+    @include mobile {
+      width: 300px;
+    }
   }
 
   .feature-number {
     margin-top: 40px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
   }
 

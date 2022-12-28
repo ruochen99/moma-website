@@ -15,6 +15,12 @@ class Publication extends Component {
   componentWillMount() {
     document.body.style.overflow = "hidden";
   }
+
+  downloadPublications = (e) => {
+    e.preventDefault();
+    window.open('https://proceedings.neurips.cc/paper/2021/hash/95688ba636a4720a85b3634acfec8cdd-Abstract.html');
+  }
+
   render() {
     return (
       <div className="publication">
@@ -32,7 +38,7 @@ class Publication extends Component {
                 Zelun Luo*, Wanze Xie*, Siddharth Kapoor, Yiyun Liang, Michael Cooper,
                 Juan Carlos Niebles, Ehsan Adeli, Li Fei-Fei
               </p>
-              <Button variant="moma-primary" size="moma-lg" > View Paper </Button>
+              <Button variant="moma-primary" size="moma-lg" onClick={(e) => this.downloadPublications(e)} className="publication-button"> View Paper </Button>
             </Col>
           </Row>
           <Row>

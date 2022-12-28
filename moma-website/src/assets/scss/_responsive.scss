@@ -1,5 +1,20 @@
+
 @mixin mobile {
   @include media-breakpoint-between(xs, sm) {
+    @content;
+  }
+}
+
+/// up to 576px
+@mixin xs {
+  @include media-breakpoint-down(xs) {
+    @content;
+  }
+}
+
+/// between 576px and 992px
+@mixin sm-md {
+  @include media-breakpoint-between(sm, md) {
     @content;
   }
 }

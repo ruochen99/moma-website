@@ -8,8 +8,8 @@ import Error from '../views/Error';
 // name should be unique, used as react key
 const routes = [
   // redirect
-  { path: '/', name: 'RedirectToLanding', redirect: true, exact: true, to: '/landing' },
-  { path: '/landing',    name: 'Landing',          component: Landing },
+  // { path: '/', name: 'RedirectToLanding', redirect: true, exact: true, to: '/landing' },
+  { path: '/',    name: 'Landing',   exact: true,    component: Landing },
   { path: '/about',    name: 'About',          component: About },
   { path: '/download',    name: 'Download',          component: Download },
   { path: '/explore',    name: 'Explore',          component: Explore },
